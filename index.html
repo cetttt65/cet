@@ -16,6 +16,7 @@
             background: linear-gradient(45deg, #1a1a2e, #16213e);
             color: #e94560;
             line-height: 1.6;
+            
         }
 
         .container {
@@ -68,6 +69,8 @@
         .buttons {
             display: flex;
             justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
             gap: 20px;
         }
 
@@ -87,24 +90,32 @@ background-color: #0f3460;
 
         .contact {
             text-align: center;
-            margin-top: 50px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
         .contact-buttons {
             display: flex;
             justify-content: center;
+            align-items: center;
             gap: 20px;
-            margin-top: 20px;
         }
         .server-description {
     text-align: center;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
     color: white;
 }
 
 .server-description h2 {
     color: #e94560;
-    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
     </style>
 </head>
@@ -132,14 +143,15 @@ background-color: #0f3460;
                 <p>Изучаю программирование</p>
                 <p>Разрабатываю Discord-ботов</p>
             </div>
+
         <div class="server-description">
-            <h2>Discord Серверы</h2>
+            <h2>Discord Сервера</h2>
             <div class="buttons">
               <a href="https://discord.gg/DaMBV22b7R" class="btn">Kimetsu no Yaiba RP</a>
               <a href="https://discord.gg/s8MbCavr4B" class="btn">ВПИ Political World</a>
             </div>
         </div>
-
+        <br>
         <div class="contact">
             <h2>Связь со мной</h2>
             <div class="contact-buttons">
